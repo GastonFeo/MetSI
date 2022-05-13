@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topBar {
+    height: 200px;
+    border: 4px ridge #4987c3;
+    border-radius: 8px;
+    display: block;
+    margin: 2px;
+
+}
+
+.logoMsi {
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+.contacInfo {
+    position: relative;
+    bottom: 70px;
+    left: 300px;
+}
+
+.clock {
+    position: relative;
+    top: 10px;
+    display: inline-block;
+}
+
+.schedule {
+    position: relative;
+    bottom: 45px;
+    left: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.horariOpen {
+    position: relative;
+    top: 30px;
+    right: 150px;
+    font-weight: 600;
+}
+
+.phone {
+    position: relative;
+    bottom: 60px;
+    left: 380px;
+    display: inline-block;
+}
+
+.phoneNumber {
+    position: relative;
+    bottom: 45px;
+    left: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.numberPhone {
+    position: relative;
+    top: 30px;
+    right: 70px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.e-mail {
+    position: relative;
+    bottom: 60px;
+    left: 500px;
+    display: inline-block;
+}
+
+.e-maiL {
+    position: relative;
+    bottom: 45px;
+    left: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.e-mailDir {
+    position: relative;
+    top: 28px;
+    right: 52px;
+    font-weight: 600;
+}
+
+/*Menu navegador*/
+
+.menu {
+    text-align: center;
+}
+
+
+.menu ul li {
+    margin: 5px;
+    text-align: center;
+    display: inline-block;
+    padding: 5px 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    bottom: 100px;
+}
+
+.menuBar a {
+    text-decoration: none;
+    color: #4987c3;
+}
+
+.menu ul li a:hover {
+    background-color: #4987c3;
+    border-radius: 5px;
+    color: white;
+    transition: 0.5s;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin: 5px;
+    text-shadow: inset;
+    
+}
+
+.home a {
+    text-decoration: none;
+    color: white;
+}
+
+.home {
+    background-color: #4987c3;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 5px;
+    position: relative;
+}
+
+.videoInst {
+    text-align: center;
+    position: relative;
+    top: 5px;
+    display: block;
+    margin-bottom: 90px;
+}
+
+/* Redes Sociales*/
+
+.instagramFacebook {
+    float: right;
+    position: relative;
+    left: -10px;
+    top: -130px;
+}
+
+.instagram {
+    position: relative;
+    right: 20px;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 25px;
+    right: 5px;
+    display: inline-block;
+}
+
+/*footer*/
+
+footer {
+    padding: 5px;
+}
+
+.copyRight {
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    font-size: smaller;
+    font-style: italic;
+    color: darkgrey;
+}
+
+
+.empresa{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 155px;
+    align-content: center;
+}
+
+.historiaEmpresa{
+    width: 500px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 150;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.fotoEmpresa {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.machine {
+    display: flex;
+    flex-direction: column;
+}
+
+.lather {
+    display: flex;
+    flex-direction: row;
+}
+
+.lather p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: smaller;
+    font-weight: 50;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.mill {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.mill p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: smaller;
+    font-weight: 50;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.galeria {
+    margin: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.galeria div img{
+        border-radius: 20px;
+}
+
+.galeria div span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.direccion {
+    margin: 30px;
+    display: flex;
+    flex-direction:row-reverse ;
+    justify-content: center;
+}
+
+.datos {
+    margin: 50px;
+    display: flex  ;
+    flex-direction: column;
+    justify-content: center;    
+}
+
+.datos span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+}
+
+.formularioContacto{
+    margin: 20px;
+    display: flex;
+    justify-content: center
+}
+
+.formularioContacto form fieldset legend {
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    font-style: oblique;
+    font-weight: 200;
+    
+}
+
+.formularioContacto form fieldset div label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: smaller;
+    font-style: oblique;
+    font-weight: 200;
+}
